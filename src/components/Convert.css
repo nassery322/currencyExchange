@@ -1,0 +1,12 @@
+.amount-input{
+    width: 100%;
+}
+.result{
+    width: 100%;   margin:0 auto; display: flex; justify-content: center; align-items: center; height: 3rem;
+font-size: 1.6rem; color:rgb(202, 103, 103);}
+.convert{
+    width: 100%; 
+}
+.error{
+    color:rgb(205, 58, 58);
+}
