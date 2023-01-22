@@ -7,14 +7,14 @@ select{
 }
 
 @media (max-width:650px){
-    .currency-conv{
+    .currency-converter{
         width: 80%;
     }
 }
 
 
 @media (max-width:400px){
-    .currency-conv{
+    .currency-converter{
         width: 100%;
     }
 }
