@@ -5,15 +5,19 @@
 select{
     margin-bottom: 20px;
 }
-
-@media (max-width:650px){
+@media (max-width:850px){
+    .currency-converter{
+        width: 70%;
+    }
+}
+@media (max-width:750px){
     .currency-converter{
         width: 80%;
     }
 }
 
 
-@media (max-width:400px){
+@media (max-width:550px){
     .currency-converter{
         width: 100%;
     }
