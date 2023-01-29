@@ -11,7 +11,7 @@ const CurrencyConverter = () => {
     const [error, setError] = useState(null);
 
     const myHeaders = new Headers();
-    myHeaders.append("apikey", "YWIq6Ms772WTQR3p0fF28YXZAGxnMTCF");
+    myHeaders.append("apikey", process.env.REACT_APP_API_KEY);
 
     const requestOptions = {
         method: 'GET',
